@@ -92,4 +92,7 @@ const calculator = {
     }
   
     calculator.displayNumber = result;
+
+    calculator.operator = null;
+    calculator.waitingForSecondNumber = false;
   }
